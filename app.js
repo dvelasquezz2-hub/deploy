@@ -26,7 +26,7 @@ if (process.env.FRONTEND_URL) {
 // Endpoint de bienvenida
 app.get("/", (req, res) => {
   res.json({
-    mensaje: "Bienvenido a nuestra API",
+    mensaje: "Bienvenido a nuestra API, actualizada en GitHub",
     entorno: NODE_ENV
   });
 });
